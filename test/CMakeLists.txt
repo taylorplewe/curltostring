@@ -1,0 +1,4 @@
+add_executable(test_curl_to_padded_string test.cpp)
+target_link_libraries(test_curl_to_padded_string PRIVATE curl_to_padded_string)
+
+add_test(NAME test_curl_to_padded_string COMMAND test_curl_to_padded_string)
