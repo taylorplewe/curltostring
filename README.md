@@ -1,4 +1,5 @@
 # curl_to_padded_string
+[![CI](https://github.com/simdjson/curltostring/actions/workflows/ci.yml/badge.svg)](https://github.com/simdjson/curltostring/actions/workflows/ci.yml)
 
 A header-only C++ library that loads a URL into a `simdjson::padded_string` using libcurl.
 
